@@ -15,17 +15,17 @@ public record ParkingListData(
         BigDecimal amountToPay,
         Vehicle vehicle
 ) {
-    public ParkingListData(ParkingManagement parkingManagement) {
+    public ParkingListData(ParkingDetails parkingDetails) {
         this(
-                parkingManagement.getId(),
-                parkingManagement.getPaymentMethod(),
-                parkingManagement.getFixedParkingPrice(),
-                parkingManagement.getVariableParkingPrice(),
-                parkingManagement.getStartParking(),
-                parkingManagement.getStopParking(),
-                parkingManagement.getUsageTime(),
-                parkingManagement.getAmountToPay(),
-                parkingManagement.getVehicle()
+                parkingDetails.getId(),
+                parkingDetails.getPaymentMethod(),
+                parkingDetails.getFixedParkingPrice(),
+                parkingDetails.getVariableParkingPrice(),
+                parkingDetails.getStartParking(),
+                parkingDetails.getStopParking(),
+                parkingDetails.getUsageTime(),
+                parkingDetails.getAmountToPay(),
+                parkingDetails.getVehicle()
                 );
     }
 }

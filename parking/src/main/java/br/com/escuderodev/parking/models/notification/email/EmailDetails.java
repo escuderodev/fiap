@@ -1,4 +1,4 @@
-package br.com.escuderodev.parking.models.email;
+package br.com.escuderodev.parking.models.notification.email;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

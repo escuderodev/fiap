@@ -1,6 +1,6 @@
 package br.com.escuderodev.parking.services;
 
-import br.com.escuderodev.parking.models.email.EmailDetails;
+import br.com.escuderodev.parking.models.notification.email.EmailDetails;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import org.slf4j.Logger;

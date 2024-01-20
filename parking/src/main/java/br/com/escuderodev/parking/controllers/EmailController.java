@@ -1,6 +1,6 @@
 package br.com.escuderodev.parking.controllers;
 
-import br.com.escuderodev.parking.models.email.EmailDetails;
+import br.com.escuderodev.parking.models.notification.email.EmailDetails;
 import br.com.escuderodev.parking.services.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
