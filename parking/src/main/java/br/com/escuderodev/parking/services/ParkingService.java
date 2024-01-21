@@ -42,7 +42,6 @@ public class ParkingService {
         var parkingSaved = parkingRepository.save(parking);
 
         var sms = new SMSDetails();
-
         var email = new EmailDetails();
 
         if (parkingSaved.getFixedTime() != null && parkingSaved.getFixedTime() > 0) {
@@ -58,6 +57,7 @@ public class ParkingService {
             sms.setTo(typedVehicle.getDriver().getPhone());
             sms.setMessage(parkingSaved.initParkingAlert());
             smsService.sendSMS(sms.getTo(), sms.getMessage());
+            smsService.sendSMSScheduled(sms.getTo(), parkingSaved.stopParkingAlert(), parkingSaved.getUsageTime() * 60);
 
             email.setRecipient("escuderodev@gmail.com");
             email.setSubject("Registro de Parking Variável");

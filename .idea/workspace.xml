@@ -2,37 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da81243-f25b-4d46-b821-7824cb319e3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/parking/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/ParkingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/DriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/ParkingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/VehicleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverListData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverRegistrationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/email/EmailDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingListData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingRegistrationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleListData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleRegistrationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/DriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/ParkingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/VehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking/src/test/java/br/com/escuderodev/parking/ParkingApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/parking/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/parking/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/parking/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/ParkingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/ParkingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/DriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/DriverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/ParkingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/SMSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/SMSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/controllers/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverListData.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverListData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverRegistrationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverRegistrationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/driver/DriverRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/notification/email/EmailDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/notification/email/EmailDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/notification/sms/SMSDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/notification/sms/SMSDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingListData.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingListData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingRegistrationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingRegistrationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/ParkingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/parking/TimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleListData.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleListData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleRegistrationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleRegistrationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/models/vehicle/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/DriverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/DriverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/ParkingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/SMSService.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/SMSService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/main/java/br/com/escuderodev/parking/services/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/src/test/java/br/com/escuderodev/parking/ParkingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking/src/test/java/br/com/escuderodev/parking/ParkingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/parking/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking/target/classes/br/com/escuderodev/parking/services/ParkingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/parking/target/classes/br/com/escuderodev/parking/services/ParkingService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,18 +65,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/eduardo.escudero/Documents/GitHub/fiap/parking",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eduardo.escudero/Documents/GitHub/fiap/parking&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,6 +94,8 @@
       <updated>1705757977047</updated>
       <workItem from="1705757979248" duration="133000" />
       <workItem from="1705758121297" duration="12000" />
+      <workItem from="1705858439245" duration="40000" />
+      <workItem from="1705858524356" duration="276000" />
     </task>
     <servers />
   </component>

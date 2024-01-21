@@ -51,6 +51,7 @@ public class ParkingDetails {
             this.usageTime= this.fixedTime;
         } else {
             this.startParking = timeServer.getTimeServer();
+            this.usageTime = 1l;
         }
     }
 
@@ -71,7 +72,7 @@ public class ParkingDetails {
 
     public String fixedParkingAlert() {
         return String.format("""
-                    === Você iniciou um estacionamento fixo para o veículo abaixo ===
+                    === Voce iniciou um estacionamento fixo para o veículo abaixo ===
                     
                     Veículo
                     Marca: %s
@@ -86,9 +87,9 @@ public class ParkingDetails {
 
     public String variableParkingAlert(){
         return String.format("""
-                    === Você iniciou um estacionamento variável para o veículo abaixo ===
+                    === Voce iniciou um estacionamento variável para o veiculo abaixo ===
                     
-                    Veículo
+                    Veiculo
                     Marca: %s
                     Modelo: %s
                     Placa: %s
@@ -101,9 +102,9 @@ public class ParkingDetails {
     public String initParkingAlert() {
         return String.format("""
                     
-                    === Você iniciou um estacionamento para o veículo abaixo ===
+                    === Voce iniciou um estacionamento para o veiculo abaixo ===
                     
-                    == Veículo ==
+                    == Veiculo ==
                     Marca: %s
                     Modelo: %s
                     Placa: %s
@@ -113,9 +114,9 @@ public class ParkingDetails {
     public String stopParkingAlert() {
         return String.format("""
                     
-                   Atenção: caso não seja renovado, o estacionamento do veículo abaixo se encerrará em 5 minutos.
+                   Atencao: Seu tempo está acabando. Caso este estacionamento nao seja encerrado em 5 minutos, ele será renovado em mais 1 hora.
                     
-                    == Veículo ==
+                    == Veiculo ==
                     Marca: %s
                     Modelo: %s
                     Placa: %s
