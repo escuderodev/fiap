@@ -55,6 +55,6 @@ public class SMSService {
         final var dateTimeNow = LocalDateTime.now();
         final var durationInMinutes = timeScheduled;
 
-        return dateTimeNow.plusMinutes(durationInMinutes - 44);
+        return dateTimeNow.plusMinutes(durationInMinutes - 5);
     }
 }
