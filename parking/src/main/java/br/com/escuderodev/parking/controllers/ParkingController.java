@@ -30,7 +30,7 @@ public class ParkingController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Optional<ParkingDetails>> findParkingById(@PathVariable Long id) {
+    public ResponseEntity findParkingById(@PathVariable Long id) {
         var parking = service.findById(id);
         return ResponseEntity.ok(parking);
     }
@@ -38,9 +38,21 @@ public class ParkingController {
     @PostMapping("/{id}")
     @Transactional
     public ResponseEntity startParking(@PathVariable Long id, @RequestBody @Valid ParkingRegistrationData data, UriComponentsBuilder uriBuilder) {
-        var parking = service.create(data, id);
-        var uri = uriBuilder.path("parking/{id}").buildAndExpand(parking.getId()).toUri();
-        return ResponseEntity.created(uri).body(parking);
+
+        Boolean creditoOuBoleto = (data.paymentMethod().equals("CREDITO") || data.paymentMethod().equals("BOLETO"));
+        Boolean fixedTimeIsNotNull = data.fixedTime() > 0;
+
+        if (creditoOuBoleto || fixedTimeIsNotNull){
+            var parking = service.create(data, id);
+            var uri = uriBuilder.path("parking/{id}").buildAndExpand(parking.getId()).toUri();
+            return ResponseEntity.created(uri).body(parking);
+        } else {
+            return ResponseEntity.ok().body("Forma de pagamento permitida apenas para Período Fixo!");
+        }
+
+//        var parking = service.create(data, id);
+//        var uri = uriBuilder.path("parking/{id}").buildAndExpand(parking.getId()).toUri();
+//        return ResponseEntity.created(uri).body(parking);
     }
 
     @PutMapping("/{id}")

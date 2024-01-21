@@ -28,6 +28,12 @@ public class DriverController {
         return ResponseEntity.ok(page);
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity findDriverById(@PathVariable Long id) {
+        var driver = service.findById(id);
+        return ResponseEntity.ok(driver);
+    }
+
     @PostMapping
     @Transactional
     public ResponseEntity registerDriver(@RequestBody @Valid DriverRegistrationData data, UriComponentsBuilder uriBuilder) {

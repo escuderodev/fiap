@@ -30,7 +30,7 @@ public class VehicleController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Optional<Vehicle>> findVehicleById(@PathVariable Long id) {
+    public ResponseEntity findVehicleById(@PathVariable Long id) {
         var vehicle = service.findById(id);
         return ResponseEntity.ok(vehicle);
     }

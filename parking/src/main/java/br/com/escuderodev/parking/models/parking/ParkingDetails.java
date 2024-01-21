@@ -44,7 +44,7 @@ public class ParkingDetails {
     public void startParking() {
         TimeServer timeServer = new TimeServer();
 
-        if (this.fixedTime != null && this.fixedTime > 0) {
+        if (this.fixedTime > 0) {
             this.amountToPay = this.fixedParkingPrice.multiply(BigDecimal.valueOf(this.fixedTime));
             this.startParking = timeServer.getTimeServer();
             this.stopParking =  this.startParking.plusHours(this.fixedTime);

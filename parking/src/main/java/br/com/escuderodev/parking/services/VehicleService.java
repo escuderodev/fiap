@@ -29,8 +29,8 @@ public class VehicleService {
         return repository.findAll(pagination).map(VehicleListData::new);
     }
 
-    public Optional<Vehicle> findById(Long id) {
-        return repository.findById(id);
+    public Vehicle findById(Long id) {
+        return repository.getReferenceById(id);
     }
 
     public Vehicle create(VehicleRegistrationData data, Long id) {

@@ -23,8 +23,8 @@ public class DriverService {
         return repository.findAll(pagination).map(DriverListData::new);
     }
 
-    public Optional<Driver> findById(Long id) {
-        return repository.findById(id);
+    public Driver findById(Long id) {
+        return repository.getReferenceById(id);
     }
 
     public Driver create(DriverRegistrationData data) {

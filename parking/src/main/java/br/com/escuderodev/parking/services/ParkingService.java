@@ -31,8 +31,8 @@ public class ParkingService {
         return parkingRepository.findAll(pagination).map(ParkingListData::new);
     }
 
-    public Optional<ParkingDetails> findById(Long id) {
-        return parkingRepository.findById(id);
+    public ParkingDetails findById(Long id) {
+        return parkingRepository.getReferenceById(id);
     }
 
     public ParkingDetails create(ParkingRegistrationData data, Long id) {
