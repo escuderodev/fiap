@@ -86,9 +86,9 @@ public class ParkingDetails {
 
     public String variableParkingAlert(){
         return String.format("""
-                    === Você iniciou um estacionamento variável para o veículo abaixo ===
+                    === Você iniciou um estacionamento variável para o veiculo abaixo ===
                     
-                    Veículo
+                    Veiculo
                     Marca: %s
                     Modelo: %s
                     Placa: %s
@@ -101,9 +101,9 @@ public class ParkingDetails {
     public String initParkingAlert() {
         return String.format("""
                     
-                    === Você iniciou um estacionamento para o veículo abaixo ===
+                    === Você iniciou um estacionamento para o veiculo abaixo ===
                     
-                    == Veículo ==
+                    == Veiculo ==
                     Marca: %s
                     Modelo: %s
                     Placa: %s
@@ -113,9 +113,9 @@ public class ParkingDetails {
     public String stopParkingAlert() {
         return String.format("""
                     
-                   Atenção: caso não seja renovado, o estacionamento do veículo abaixo se encerrará em 5 minutos.
+                   Atencao: caso nao seja renovado, o estacionamento do veiculo abaixo se encerrará em 5 minutos.
                     
-                    == Veículo ==
+                    == Veiculo ==
                     Marca: %s
                     Modelo: %s
                     Placa: %s

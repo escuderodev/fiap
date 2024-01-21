@@ -49,6 +49,8 @@ public class ParkingService {
             sms.setTo(typedVehicle.getDriver().getPhone());
             sms.setMessage(parkingSaved.initParkingAlert());
             smsService.sendSMS(sms.getTo(), sms.getMessage());
+//            teste scheduled
+            smsService.sendSMSScheduled(sms.getTo(), parkingSaved.stopParkingAlert(), parkingSaved.getUsageTime() * 60);
 
             email.setRecipient("escuderodev@gmail.com");
             email.setSubject("Registro de Parking Fixo");
