@@ -19,11 +19,13 @@ public class Driver {
     private Long id;
     private String name;
     private String phone;
+    private String email;
     private String address;
 
     public Driver(DriverRegistrationData data) {
         this.name = data.name();
         this.phone = data.phone();
+        this.email = data.email();
         this.address = data.address();
     }
 
@@ -33,6 +35,7 @@ public class Driver {
     public void updateData(Driver driver) {
         this.name = driver.name;
         this.phone = driver.phone;
+        this.email = driver.email;
         this.address = driver.address;
     }
 }

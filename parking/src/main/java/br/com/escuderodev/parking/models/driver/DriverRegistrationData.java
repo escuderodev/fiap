@@ -8,6 +8,8 @@ public record DriverRegistrationData(
         @NotBlank
         String phone,
         @NotBlank
+        String email,
+        @NotBlank
         String address
 ) {
 }

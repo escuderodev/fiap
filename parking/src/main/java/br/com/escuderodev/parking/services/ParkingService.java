@@ -49,7 +49,7 @@ public class ParkingService {
             sms.setMessage(parkingSaved.initParkingAlert());
             smsService.sendSMS(sms.getTo(), sms.getMessage());
 
-            email.setRecipient("escuderodev@gmail.com");
+            email.setRecipient(typedVehicle.getDriver().getEmail());
             email.setSubject("Registro de Parking Fixo");
             email.setMessageBody(parkingSaved.fixedParkingAlert());
             emailService.sendMail(email);
@@ -59,7 +59,7 @@ public class ParkingService {
             smsService.sendSMS(sms.getTo(), sms.getMessage());
             smsService.sendSMSScheduled(sms.getTo(), parkingSaved.stopParkingAlert(), parkingSaved.getUsageTime() * 60);
 
-            email.setRecipient("escuderodev@gmail.com");
+            email.setRecipient(typedVehicle.getDriver().getEmail());
             email.setSubject("Registro de Parking Variável");
             email.setMessageBody(parking.variableParkingAlert());
             emailService.sendMail(email);
